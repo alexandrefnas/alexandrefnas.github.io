@@ -1,16 +1,14 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" data-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alexandre Nascimento | Portfolio</title>
     <meta name="description" content="Portfolio do desenvolvedor back-end e front-end Alexandre Nascimento para compartilar projetos e habilidades desenvolvidas.">
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     
     <link rel="shortcut icon" href="/imagens/icon/favicon_io (1)/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    <!-- <link rel="stylesheet" href="assets/css/variaveis.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">  
 
 </head>
 <body>
@@ -49,7 +47,7 @@
         </div>
     </header>
 
-    <nav>
+    <nav class="nav--mobile">
         <ul class="menu menu--mobile">
             <li class="menu__item">
                 <a class="menu__link active" href="#home">
@@ -78,5 +76,59 @@
 
         </ul>
     </nav>
+
+    <main>
+        <div class="main__content1">
+            <h1> <b>Soluções Criativas &</b> Desenvolvimento Front-end</h1>
+            <p>Alexandre Nascimento, Uberlândia-MG, Desenvolvedor back-end e front-end.</p>
+            <ul class="menu menu--social">
+                <li>
+                    <a class="menu__link" href="">
+                        <i class="menu__icon bi bi-github"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="menu__link" href="">
+                        <i class="menu__icon bi bi-linkedin"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="menu__link" href="">
+                        <i class="menu__icon bi bi-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+            <button class="btn btn--primary">
+                <span>Ver Projetos</span>
+                <i class="bi bi-arrow-down-right"></i>
+            </button>
+        </div>
+        <div class="main__content2">
+            <iframe src="https://drive.google.com/file/d/154C5XKasyUuMAcH9NliJiujzA7cWBPtZ/view?usp=drive_link" title="Video Drive" frameborder="0"></iframe>
+        </div>
+    </main>
+    <section class="skills">
+        <h2>Conhecimento nas principais tecnologias do mercado</h2>
+        <ul class="skills__list">
+            <li class="skills__item">
+                <img class="skills__logo" src="/imagens/logo/c-net-core.png" alt="">
+            </li>
+            <li class="skills__item">
+                <img class="skills__logo" src="/imagens/logo/JavaScript-logo.png" alt="">
+            </li>
+            <li class="skills__item">
+                <img class="skills__logo" src="/imagens/logo/logo-css-3-256.png" alt="">
+            </li>
+            <li class="skills__item">
+                <img class="skills__logo" src="/imagens/logo/html-5.png" alt="">
+            </li>
+        </ul>
+    </section>
+    <footer>
+        <p>
+            © 2024. Todos os Direitos Reservados. Alexandre Nascimento. Desenvolvido por <a href="https://github.com/alexandrefnas">AFN</a>.
+        </p>
+    </footer>
+    <script src="assets/js/scripts.js"></script>
 </body>
 </html>
